@@ -1,0 +1,35 @@
+# Python Virtual Environments & Caches
+.venv/
+env/
+venv/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# PyTorch Checkpoints & Large Weight Files
+*.pth
+*.pt
+*.onnx
+*.engine
+best_model.pth
+
+# Generated Output Directories & Datasets
+dataset/
+sample_data/
+auto_labeled_dataset/
+auto_labeled_results/
+eval_results/
+my_results/
+real_colony_auto_labels/
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.code-workspace
+.DS_Store
+Thumbs.db
